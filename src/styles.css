@@ -650,13 +650,15 @@ button {
   border-radius: 999px;
   display: grid;
   place-items: center;
-  background: var(--red);
+  background: #e1121b;
   color: #fff;
   font-family: "Gilroy MX", Arial, sans-serif;
   font-size: 34px;
   font-weight: 800;
   letter-spacing: 0;
-  z-index: 3;
+  box-shadow: 0 16px 28px rgba(225, 18, 27, 0.2);
+  isolation: isolate;
+  z-index: 8;
 }
 
 .mountain-layer,
